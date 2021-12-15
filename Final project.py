@@ -108,7 +108,7 @@ class GUI(EasyFrame):
             self.messageBox(message = "You must select an icing")   #message displayed if nothing is selected
 
     def toppingCommand(self):
-        myCustomMessage = self.toppingBox.getSelectedItem()  #assinging values to the toppings, or zero for none
+        myCustomMessage = self.toppingBox.getSelectedItem()  #assigning values to the toppings, or zero for none
         if myCustomMessage == "None":
             self.toppingPrice = 0.0
         if myCustomMessage == "Rainbow Sprinkles":
